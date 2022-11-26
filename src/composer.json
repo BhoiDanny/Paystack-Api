@@ -1,0 +1,21 @@
+{
+    "name": "cypherios/paystack",
+    "description": "paystack test Project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Cypherios",
+            "email": "Brownssmith899@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    }
+}

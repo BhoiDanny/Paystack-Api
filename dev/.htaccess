@@ -1,0 +1,9 @@
+php_flag display_erors on
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+RewriteRule ^charge api/v1/controller/charge.php [L]
+RewriteRule ^response api/v1/model/responseTest.php [L]

@@ -1,0 +1,33 @@
+{
+  "name": "paystack",
+  "version": "1.0.0",
+  "description": "pay stack test ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp",
+    "dist": "gulp dist:build",
+    "watch": "gulp watch",
+    "watch-php": "gulp watch-php",
+    "build-dev": "gulp build-dev",
+    "zip-dist": "gulp zip-project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhoiDanny/landCheck.git"
+  },
+  "author": "Daniel Botchway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BhoiDanny/landCheck/issues"
+  },
+  "homepage": "https://github.com/BhoiDanny/landCheck#readme",
+  "devDependencies": {
+    "gulp-mini-framework": "^1.0.7"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.1",
+    "jquery": "^3.6.1",
+    "sweetalert2": "^11.4.38"
+  }
+}
